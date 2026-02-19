@@ -54,12 +54,8 @@ The **AI-Based Mock Interview Preparation System** is a state-of-the-art platfor
 - 📧 **SMTP Service**: Gmail SMTP for email verification
 
 ## 🔄 Workflow
-### 1️⃣ User Registration & Authentication 🔑
-- Users sign up with an email.
-- System sends login credentials via **Gmail SMTP**.
-- Users log in using provided credentials.
 
-### 2️⃣ Creating an Interview Space 🏢
+### 1. Creating an Interview Space 🏢
 - Users create a **"Space"** for a company.
 - Inputs:
   - 🏢 **Company Name**
@@ -69,7 +65,7 @@ The **AI-Based Mock Interview Preparation System** is a state-of-the-art platfor
   - 📂 **Resume Upload**
 - System stores this data in MongoDB and **summarizes the resume using AI**.
 
-### 3️⃣ Interview Process 🎤
+### 2. Interview Process 🎤
 - Users navigate to a **"Space"** to view interview rounds.
 - Clicking on a round initiates the interview:
   - 🤖 AI generates **realistic interview questions** based on resume, job description, and round type.
@@ -78,52 +74,16 @@ The **AI-Based Mock Interview Preparation System** is a state-of-the-art platfor
   - ✏️ Option to **edit responses** before submission.
 - ✅ After all questions are answered, interview is **submitted for evaluation**.
 
-### 4️⃣ AI-Generated Interview Summary & Feedback 📊
+### 3. AI-Generated Interview Summary & Feedback 📊
 - After the interview, AI generates:
   - 📄 **Interview Summary**
   - 🏆 **Key Takeaways**
   - 📈 **Evaluation & Best Practices**
 
-## 🔧 Setting Up Gemini API (Google AI Studio)
-1. Visit [Google AI Studio](https://aistudio.google.com/).
-2. Create a new project.
-3. Generate an API key.
-4. Save the API key in the `.env` file.
-
-## 📥 Installation Guide
-### ⚙️ Prerequisites
-- Install **Node.js** and **MongoDB**.
-- Use **Google Chrome** for best compatibility.
-
-### 🚀 Setup Instructions
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/SagarInnovate/AI-Based-mock-interview-prepration-using-nodejs.git
-   cd AI-Based-mock-interview-prepration-using-nodejs
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Configure environment variables:
-   - Copy `.env-example` to `.env`:
-     ```sh
-     cp .env-example .env
-     ```
-   - Update `.env` with:
-     - 🗄️ MongoDB URL
-     - 📧 Gmail SMTP credentials (username, password)
-     - 🔑 Cookie session value
-     - 🤖 Gemini API key
-4. Start the server:
-   ```sh
-   node server.js
-   ```
-5. Open the browser and access the application at `http://localhost:3000`.
 
 ## 📸 Output
 ### 🎥 Screenshots & Video Demonstrations
-- 🎬 [Project Demo Video](https://your-demo-video-link.com)
+- 🎬 [Project Demo Video](https://ai-based-mock-interview-preparation.onrender.com)
 - **Screenshots**:
   - 🖥️ Dashboard UI
   - 🏢 Space Creation
