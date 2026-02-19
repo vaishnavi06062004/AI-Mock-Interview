@@ -4,9 +4,6 @@
 The **AI-Based Mock Interview Preparation System** is a state-of-the-art platform designed to help students and professionals prepare for technical interviews in a structured, realistic, and efficient manner. The system leverages **Bootstrap, Node.js, Express.js, and MongoDB** to provide a seamless and interactive experience. Advanced **AI capabilities** are utilized to generate industry-relevant interview questions based on the student’s resume, job description, and interview round type. The system also provides AI-generated interview feedback, evaluation reports, and improvement recommendations.
 
 ## ✨ Features
-- 🔐 **User Authentication**
-  - Secure signup and login system.
-  - User credentials are emailed via **Gmail SMTP**.
 
 - 🎛️ **Interactive Dashboard**
   - Provides an intuitive interface for managing interview preparations.
